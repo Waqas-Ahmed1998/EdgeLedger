@@ -1,0 +1,240 @@
+/* Reset  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* main  */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f4f4f4;
+}
+
+/* Utility Classes  */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  text-align: center;
+}
+.i-large {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #93cb52;
+  border-radius: 50%;
+}
+.logo {
+  padding: 0.5rem;
+}
+.text-primary {
+  color: #93cb52;
+}
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+.bg-primary {
+  background-color: #93cb52;
+  color: #fff;
+}
+.text-dark {
+  color: #333;
+}
+.my-1 {
+  margin: 1rem 0rem;
+}
+.my-2 {
+  margin: 2rem 0rem;
+}
+.my-3 {
+  margin: 3rem 0rem;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.bg-light {
+  background-color: #f1f1f1;
+}
+
+.l-heading {
+  color: #f4f4f4;
+  font-size: 4rem;
+  padding: 1rem 0;
+}
+.m-heading {
+  font-size: 3rem;
+  color: #f4f4f4;
+}
+.lead {
+  color: #f4f4f4;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.l-height {
+  line-height: 1.25rem;
+}
+.color-primary {
+  color: #93cb52;
+}
+.btn {
+  background-color: #93cb52;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background-color: #7ab436;
+}
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+/* Navbar  */
+
+#navbar {
+  display: flex;
+  background: #333;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+  color: #f4f4f4;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#navbar ul li a {
+  padding: 0.75rem;
+}
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+#showcase {
+  background: url(/img/showcase.jpg) no-repeat center center/cover;
+  height: 89.5vh;
+  overflow: hidden;
+  display: flex;
+}
+#showcase .showcase-content {
+  text-align: center;
+  padding: 10rem 5rem;
+  height: 89.5vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* **********************profession********************************* */
+
+#profession {
+  padding: 2rem 0;
+  background: #f4f4f4;
+}
+
+.content {
+  padding: 1rem;
+  display: flex;
+}
+#profession .info-part {
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+#profession .info-part h2 {
+  padding-bottom: 1rem;
+}
+
+/* ************************Team******************* */
+
+#team {
+  background: #333;
+  display: flex;
+  color: #f1f1f1;
+}
+#team .image-part,
+.content-part {
+  flex: 1;
+}
+#team .image-part {
+  background: url(/img/people.jpg) no-repeat center center/cover;
+  min-height: 500px;
+}
+#team .content-part {
+  padding: 2rem 1.5rem;
+}
+
+/* Clients  */
+
+#clients {
+  background-color: #f4f4f4;
+  padding: 2rem 0;
+}
+#clients h2 {
+  text-align: center;
+}
+#clients .logo-part {
+  display: flex;
+  padding: 0 5rem;
+  justify-content: space-between;
+}
+#clients .logo-part img {
+  width: 100px;
+}
+#clients h2 {
+  padding-bottom: 2rem;
+}
+
+/* ***********************Contact section */
+
+#contact {
+  display: flex;
+}
+#contact .map,
+.contact-form {
+  flex: 1;
+  padding-bottom: 1rem;
+}
+.contact-form button {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
+.contact-form h2,
+h3 {
+  padding-left: 2rem;
+}
+#contact .form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+}
+#contact .form-group label {
+  padding: 1rem 0;
+}
+#contact .form-group input,
+textarea {
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #f4f4f4;
+}
